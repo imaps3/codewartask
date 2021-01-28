@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 	int numOfBits = countBits(1234);
-        
+        System.out.println("Number has: "+ numOfBits + " bits");
     }
     public static int countBits(int n){
         int count = 0;
